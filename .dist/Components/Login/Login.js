@@ -24,6 +24,7 @@ const formValid = ({ formErrors, ...rest }) => {
   };
 
   
+  
 export class Login extends Component {
     constructor(props) {
         super(props);
@@ -122,9 +123,12 @@ export class Login extends Component {
         const { formErrors } = this.state;
     
         return (
+          
           <div className="wrapper">
             <div className="form-wrapper">
+              
               <h1>Sign-in Page</h1>
+              <img src="erlogo.png" alt="Education Rescue" class="picture"></img>
               <form onSubmit={this.handleSubmit} noValidate>
                 <div className="email">
                   <label htmlFor="email">Email</label>
