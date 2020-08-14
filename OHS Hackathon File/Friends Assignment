@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Friends Essay</title>
+	<link rel="stylesheet" type="text/css" href="HACK.css">
+</head>
+<body id="right" class="same">
+	<link rel="stylesheet" type="text/css" href="HACK.css">
+	<div id="animals">
+		<h1>Assignment 1: Friends Essay</h1>
+		<hr class="line">
+		<br>
+		<p>Friends is an American television sitcom, created by David Crane and Marta Kauffman, which aired on NBC from September 22, 1994, to May 6, 2004, lasting ten seasons.[1] With an ensemble cast starring Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry and David Schwimmer, the show revolves around six friends in their 20s and 30s who live in Manhattan, New York City.
+		 <br>
+		 Watch an analyze two episodes of Friends from season 4. Zoom in specifically on how the writers incorporate entertaining humor. Pay attention to which jokes performed better, and elaborate on why you think they were more successful. 
+		 <br>
+		 Essay must be written in MLA format. 12 pt font, double spaced.
+		</p>
+		<img src="panda1.jpg" class="picture">
+
+		<br>
+
+	</div>
+		<p id=disclaimer>Disclaimer: All descriptions were taken from Wikipedia... Sorry... I was lazy...</p>
+
+</body>
+</html>

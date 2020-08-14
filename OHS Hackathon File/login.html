@@ -1,0 +1,49 @@
+<html>
+<head>
+  <link href="HACK.css" rel="stylesheet">
+</head>
+<form class="transition" action="action_page.php" method="post" id="right">
+  <div class="imgcontainer">
+    <img src="erlogo.png" alt="Education Rescue" class="picture">
+  </div>
+
+  <div>
+    <?php include 'login.php';?>
+  </div>
+
+  <div id="assign" class="same">
+    <label for="uname" ><b>Username</b></label> 
+
+    <br>
+
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <br>
+
+    <label for="psw" ><b>Password</b></label> <br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <br>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+
+    <br> <br>
+
+    <a href="#">Forgot password?</a></span>
+
+    <br><br>
+
+    <button type="submit">Login</button>
+
+  </div>
+
+  <div id="assign">
+    
+    <button type="button" class="cancelbtn" onclick="document.location='welcome.html'">Cancel</button>
+    <br>
+  </div>
+</form>
+
+</html>
