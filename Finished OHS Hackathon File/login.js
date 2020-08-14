@@ -36,11 +36,10 @@ export class Login extends Component {
             password: ""
           },
           items: {},
-          data: {fname: 'Kishor',
-          lname: 'Meshram',
-          email: 'kishor@test.com', 
-          accountType:'cust_',
-          zip:'441601'}
+          data: {fname: 'helena',
+          lname: 'fu',
+          email: 'helena@test.com', 
+          }
         };
 
         this.handleClick = this.handleClick.bind(this)
