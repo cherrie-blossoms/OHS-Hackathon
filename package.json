@@ -1,7 +1,6 @@
 {
   "name": "ohs-hackathon",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.5.2",
@@ -20,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/cherrie-blossoms/OHS-Hackathon/issues"
   },
-  "homepage": "https://github.com/cherrie-blossoms/OHS-Hackathon#readme"
+  "homepage": "https://github.com/cherrie-blossoms/OHS-Hackathon#readme",
+  "description": ""
 }
