@@ -48,7 +48,7 @@ export class Login extends Component {
       }
 
     handleClick () {
-    axios.get('https://5rbc6bh8f3.execute-api.us-west-1.amazonaws.com/TestStage/getacct?email=cust_abhyuu3@gmail.com')
+    axios.get('https://www.googleapis.com/admin/directory/v1/users/')
       .then(response => this.setState({username: response.data.fname+' '+response.data.lname}))
   }
 
@@ -61,13 +61,12 @@ export class Login extends Component {
         headers: { 
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ fname: 'Kishor',
-        lname: 'Meshram',
-        email: 'kishor@test.com', 
-        accountType:'cust_',
-        zip:'441601'})
+        body: JSON.stringify({ fname: '',
+        lname: '',
+        email: '', 
+        })
     };
-      axios.post('https://5rbc6bh8f3.execute-api.us-west-1.amazonaws.com/TestStage/createacct', this.state.data,requestOptions)
+      axios.post('https://www.googleapis.com/admin/directory/v1/users/', this.state.data,requestOptions)
     .then(function (response) {
     console.log(response);
     })   
