@@ -1,0 +1,20 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/templates/blog-home)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+head{
+  padding-top: 56px;
+}
+
+body {
+  padding-top: 56px;
+}
+
+#bg{
+	background: url(https://img1.wsimg.com/isteam/ip/5ac2fe1d-7893-4872-8a45-b36338805af4/afrozilla%20site.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
